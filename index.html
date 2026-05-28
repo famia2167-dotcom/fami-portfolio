@@ -5,327 +5,250 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fami Abdi Siraj | Engineering Portfolio</title>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
 <style>
 *{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-
-html{
-scroll-behavior:smooth;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
 }
 
 body{
-background:linear-gradient(135deg,#0b1120,#172033,#0f172a);
-color:#fff;
-line-height:1.7;
+    background:#0f172a;
+    color:#ffffff;
+    line-height:1.7;
 }
 
-/* Header */
+/* HEADER */
 header{
-text-align:center;
-padding:60px 20px;
-background:#111827;
-border-bottom:4px solid #00ff99;
-}
-
-.profile-pic{
-width:180px;
-height:180px;
-border-radius:50%;
-object-fit:cover;
-border:5px solid #00ff99;
-box-shadow:0 0 25px rgba(0,255,153,0.4);
-margin-bottom:20px;
+    background:linear-gradient(135deg,#0f172a,#1e293b);
+    text-align:center;
+    padding:70px 20px;
+    border-bottom:3px solid #dc2626;
 }
 
 header h1{
-font-size:42px;
-color:#00ff99;
-margin-bottom:10px;
+    font-size:42px;
+    color:#ffffff;
+}
+
+header h2{
+    color:#dc2626;
+    margin-top:10px;
+    font-size:22px;
 }
 
 header p{
-font-size:18px;
-color:#d1d5db;
-margin-bottom:8px;
+    margin-top:10px;
+    color:#cbd5e1;
 }
 
+/* CONTAINER */
 .container{
-width:90%;
-max-width:1100px;
-margin:auto;
-padding:40px 0;
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
 }
 
-/* Cards */
+/* CARD */
 .card{
-background:#1f2937;
-padding:30px;
-margin:25px 0;
-border-radius:20px;
-box-shadow:0 5px 20px rgba(0,0,0,0.25);
+    background:#1e293b;
+    padding:30px;
+    margin:25px 0;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.4);
+    border-left:5px solid #dc2626;
 }
 
-h2{
-color:#00ff99;
-margin-bottom:20px;
-font-size:30px;
+.card h2{
+    color:#dc2626;
+    margin-bottom:15px;
 }
 
-/* Skills */
+/* SKILLS */
 .skills{
-display:flex;
-flex-wrap:wrap;
-gap:12px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
 }
 
 .skill{
-background:#00ff99;
-color:black;
-padding:10px 15px;
-border-radius:25px;
-font-weight:bold;
+    background:#334155;
+    padding:10px 15px;
+    border-radius:30px;
+    color:#ffffff;
+    border:1px solid #dc2626;
 }
 
-/* Project */
+/* PROJECT */
 .project{
-background:#374151;
-padding:20px;
-border-radius:15px;
-margin-top:20px;
+    background:#334155;
+    padding:20px;
+    border-radius:12px;
+    margin-top:15px;
 }
 
-.project img{
-width:100%;
-border-radius:15px;
-margin-bottom:15px;
+.project h3{
+    color:#ff3b3b;
+    margin-bottom:10px;
+    font-size:24px;
 }
 
-/* Buttons */
+/* BUTTONS */
 .btn{
-display:inline-block;
-background:#00ff99;
-color:black;
-padding:14px 20px;
-border-radius:10px;
-text-decoration:none;
-font-weight:bold;
-margin-top:15px;
-transition:0.3s;
+    display:inline-block;
+    text-decoration:none;
+    background:#dc2626;
+    color:white;
+    padding:12px 20px;
+    margin:8px;
+    border-radius:8px;
+    font-weight:bold;
 }
 
 .btn:hover{
-background:white;
+    background:#991b1b;
 }
 
-/* Contact Icons */
-.contact-icons{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:20px;
-margin-top:20px;
+/* CONTACT ICON STYLE */
+.contact-links{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
 }
 
-.contact-icons a{
-width:60px;
-height:60px;
-background:#00ff99;
-display:flex;
-justify-content:center;
-align-items:center;
-border-radius:50%;
-font-size:25px;
-color:black;
-text-decoration:none;
-transition:0.3s;
+.contact-links a{
+    text-decoration:none;
+    background:#334155;
+    color:white;
+    padding:12px 18px;
+    border-radius:8px;
+    border:1px solid #dc2626;
 }
 
-.contact-icons a:hover{
-transform:scale(1.1);
-background:white;
-}
-
-/* Footer */
+/* FOOTER */
 footer{
-text-align:center;
-padding:25px;
-background:#111827;
-margin-top:30px;
-border-top:2px solid #00ff99;
+    text-align:center;
+    background:#1e293b;
+    padding:20px;
+    margin-top:30px;
+    color:#cbd5e1;
 }
 
-@media(max-width:768px){
-header h1{
-font-size:34px;
-}
-.profile-pic{
-width:150px;
-height:150px;
-}
-}
 </style>
 </head>
 
 <body>
 
 <header>
-
-<!-- TOP PHOTO -->
-<img src="profile.jpg" alt="Fami Abdi Siraj" class="profile-pic">
-
-<h1>Fami Abdi Siraj</h1>
-
-<p>
-Mechanical Engineer | Software Developer | Website Developer
-</p>
-
-<p>
-Digital Marketer | 4th Year ASTU Student
-</p>
-
-<!-- CV DOWNLOAD -->
-<a href="Fami_Abdi_Siraj_CV.pdf" download class="btn">
-<i class="fa-solid fa-download"></i>
- Download CV
-</a>
-
+    <h1>Fami Abdi Siraj</h1>
+    <h2>Mechanical Engineer | Software Developer</h2>
+    <p>4th Year Mechanical Engineering Student - ASTU</p>
 </header>
 
 <div class="container">
 
-<!-- ABOUT -->
-<div class="card">
-<h2>About Me</h2>
+    <!-- ABOUT -->
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a Mechanical Engineering student at Adama Science and Technology University (ASTU).
+            I specialize in mechanical design, hybrid systems, automation, software development,
+            website development, and digital marketing.
+        </p>
+    </div>
 
-<p>
-My name is <strong>Fami Abdi Siraj</strong>. I am a 4th year Mechanical Engineering student at Adama Science and Technology University (ASTU), expected to graduate in 2027. I have strong skills in engineering, software development, website development, digital marketing, automation systems and hybrid mechanical-electrical systems.
-</p>
-</div>
+    <!-- SKILLS -->
+    <div class="card">
+        <h2>Skills</h2>
 
-<!-- SKILLS -->
-<div class="card">
+        <div class="skills">
+            <div class="skill">SolidWorks</div>
+            <div class="skill">AutoCAD</div>
+            <div class="skill">CATIA</div>
+            <div class="skill">Mechanical Design</div>
+            <div class="skill">Hybrid Systems</div>
+            <div class="skill">Automation</div>
+            <div class="skill">Software Development</div>
+            <div class="skill">Website Development</div>
+            <div class="skill">Digital Marketing</div>
+        </div>
+    </div>
 
-<h2>Skills</h2>
+    <!-- PROJECTS -->
+    <div class="card">
+        <h2>Projects</h2>
 
-<div class="skills">
+        <div class="project">
+            <h3>Automation Car Drive Gear Design</h3>
+            <p>
+                Designed an automated vehicle gearbox and mechanical transmission system
+                to improve mechanical efficiency.
+            </p>
+        </div>
 
-<div class="skill">SolidWorks</div>
-<div class="skill">AutoCAD</div>
-<div class="skill">CATIA</div>
-<div class="skill">Mechanical Design</div>
-<div class="skill">Automation Systems</div>
-<div class="skill">Hybrid Systems</div>
-<div class="skill">Machine Operation</div>
-<div class="skill">Software Development</div>
-<div class="skill">Website Development</div>
-<div class="skill">Digital Marketing</div>
+        <div class="project">
+            <h3>Hybrid Solar Water Desalination & Purifier Machine</h3>
+            <p>
+                Designed a hybrid solar-powered water desalination and purification
+                machine for clean water production.
+            </p>
+        </div>
 
-</div>
-</div>
+        <div class="project">
+            <h3>Hydraulic Bottle Jack Design</h3>
+            <p>
+                Mechanical hydraulic bottle jack design and 3D assembly modeling
+                for lifting systems.
+            </p>
+        </div>
 
-<!-- PROJECTS -->
-<div class="card">
+    </div>
 
-<h2>Engineering Projects</h2>
+    <!-- CV DOWNLOAD -->
+    <div class="card">
+        <h2>Download My CV</h2>
 
-<!-- PROJECT 1 -->
-<div class="project">
+        <a href="cv.pdf" download class="btn">
+            Download CV
+        </a>
 
-<img src="gearbox.jpg" alt="Gearbox">
+        <p style="margin-top:15px;">
+            Upload your CV PDF file in GitHub and name it:
+            <b>cv.pdf</b>
+        </p>
+    </div>
 
-<h3>Automation Car Drive Gear Design</h3>
+    <!-- CONTACT -->
+    <div class="card">
+        <h2>Contact Me</h2>
 
-<p>
-Designed automation car drive gear systems to improve vehicle performance and mechanical efficiency.
-</p>
+        <div class="contact-links">
 
-</div>
+            <a href="mailto:Famia2167@gmail.com">
+                📧 Email
+            </a>
 
-<!-- PROJECT 2 -->
-<div class="project">
+            <a href="https://wa.me/251XXXXXXXXX" target="_blank">
+                📱 WhatsApp
+            </a>
 
-<img src="water-system.jpg" alt="Water Purifier">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">
+                💼 LinkedIn
+            </a>
 
-<h3>Hybrid Solar Water Desalination & Purifier Machine</h3>
+            <a href="https://www.upwork.com" target="_blank">
+                🌍 Freelance
+            </a>
 
-<p>
-Designed a hybrid solar-powered water desalination and purification machine for clean water production.
-</p>
-
-</div>
-
-<!-- PROJECT 3 -->
-<div class="project">
-
-<img src="jack-design.png" alt="Hydraulic Bottle Jack">
-
-<h3>Hydraulic Bottle Jack Design</h3>
-
-<p>
-Mechanical hydraulic bottle jack design and 3D assembly modeling for lifting systems.
-</p>
-
-</div>
-
-</div>
-
-<!-- FREELANCE -->
-<div class="card">
-
-<h2>Freelance Services</h2>
-
-<p>
-Available for engineering projects, website development, digital marketing and technical support.
-</p>
-
-<a href="https://wa.me/251949710781" target="_blank" class="btn">
-<i class="fab fa-whatsapp"></i>
- Hire Me on WhatsApp
-</a>
-
-</div>
-
-<!-- CONTACT -->
-<div class="card">
-
-<h2>Contact Me</h2>
-
-<div class="contact-icons">
-
-<a href="mailto:Famia2167@gmail.com">
-<i class="fas fa-envelope"></i>
-</a>
-
-<a href="tel:+251949710781">
-<i class="fas fa-phone"></i>
-</a>
-
-<a href="https://linkedin.com/in/fami-abdi-ba532a367" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
-
-<a href="https://wa.me/251949710781" target="_blank">
-<i class="fab fa-whatsapp"></i>
-</a>
-
-<a href="https://github.com/famia2167-dotcom" target="_blank">
-<i class="fab fa-github"></i>
-</a>
-
-</div>
-
-</div>
+        </div>
+    </div>
 
 </div>
 
 <footer>
-<p>© 2027 Fami Abdi Siraj | Engineering Portfolio</p>
+    <p>© 2026 Fami Abdi Siraj | mechanical Engineering Portfolio</p>
 </footer>
 
 </body>
